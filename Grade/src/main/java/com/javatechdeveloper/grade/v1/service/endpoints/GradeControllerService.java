@@ -16,12 +16,12 @@ import com.javatechdeveloper.grade.v1.service.cargo.Student;
 @RequestMapping(value="/grade", produces= MediaType.APPLICATION_JSON_VALUE, consumes= MediaType.APPLICATION_JSON_VALUE)
 public class GradeControllerService {
 
-	@GetMapping
+	@GetMapping("/student")
 	public List<Student> getStudents(){
 		return null;	
 	}
 	
-	@GetMapping
+	@GetMapping("/staff")
 	public List<Staff> getStaffs(){
 		return null;	
 	}
