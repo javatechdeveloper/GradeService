@@ -1,4 +1,4 @@
-package com.javatechdeveloper.grade.v1.cargo;
+package com.javatechdeveloper.grade.v1.service.cargo;
 
 import java.time.LocalDate;
 

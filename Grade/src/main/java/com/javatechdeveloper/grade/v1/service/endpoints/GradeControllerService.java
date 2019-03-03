@@ -7,8 +7,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.javatechdeveloper.grade.v1.cargo.Staff;
-import com.javatechdeveloper.grade.v1.cargo.Student;
+import com.javatechdeveloper.grade.v1.service.cargo.Staff;
+import com.javatechdeveloper.grade.v1.service.cargo.Student;
+
 
 
 @RestController
